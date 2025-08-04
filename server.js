@@ -249,10 +249,10 @@ function createEmailTemplate(formData) {
                     Full Stack Developer | Embedded Systems Engineer | Tech Innovator
                 </p>
                 <div class="footer-links">
-                    <a href="mailto:josphatmburu@example.com" class="footer-link">📧 Email</a>
+                    <a href="mailto:whiz.techke@gmail.com" class="footer-link">📧 Email</a>
                     <a href="https://github.com/mburuwhiz" class="footer-link">🔗 GitHub</a>
                     <a href="https://linkedin.com/in/josphatmburu" class="footer-link">💼 LinkedIn</a>
-                    <a href="https://wa.me/254700000000" class="footer-link">📱 WhatsApp</a>
+                    <a href="https://wa.me/254754783683" class="footer-link">📱 WhatsApp</a>
                 </div>
                 <p style="color: #6b7280; font-size: 12px; margin-top: 20px;">
                     This email was sent from your portfolio website contact form.
