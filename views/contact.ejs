@@ -1,0 +1,198 @@
+<%- include('partials/header') %>
+
+<main class="main-content">
+    <!-- Contact Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>Let's collaborate on your next project or discuss opportunities</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Let's Connect</h2>
+                    <p>
+                        I'm always interested in new opportunities, collaborations, and exciting projects.
+                        Whether you need a full-stack developer, embedded systems engineer, or just want
+                        to chat about technology, feel free to reach out!
+                    </p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-info">
+                                <h3>Email</h3>
+                                <p>whiz.techke@gmail.com</p>
+                                <a href="mailto:whiz.techke@gmail.com" class="contact-link">Send Email</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="method-info">
+                                <h3>WhatsApp</h3>
+                                <p>+254 754 783 683</p>
+                                <a href="https://wa.me/254754783683?text=Hi+Whiz%2C+I+found+you+online+and+I%E2%80%99m+interested+in+your+services.+Here+are+some+details+about+what+I%E2%80%99m+looking+for%3A+%0A%0AMy+Name%3A+%0AMy+Business+%2F+Project%3A+%0AService+Needed%3A+%0ABudget+%2F+Timeline+(if+any)%3A+%0A%0ALooking+forward+to+hearing+from+you!+%F0%9F%98%8A" class="contact-link" target="_blank">Message on WhatsApp</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="method-info">
+                                <h3>GitHub</h3>
+                                <p>@mburuwhiz</p>
+                                <a href="https://github.com/mburuwhiz" class="contact-link" target="_blank">View Profile</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="method-info">
+                                <h3>LinkedIn</h3>
+                                <p>Josphat Mburu</p>
+                                <a href="https://linkedin.com/in/josphatmburu" class="contact-link" target="_blank">Connect</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="availability">
+                        <h3><i class="fas fa-clock"></i> Availability</h3>
+                        <p>I'm currently <span class="status available">available</span> for freelance projects and full-time opportunities.</p>
+                        <p><strong>Response Time:</strong> Usually within 24 hours</p>
+                        <p><strong>Time Zone:</strong> East Africa Time (EAT)</p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Send a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="project">Project Collaboration</option>
+                                <option value="job">Job Opportunity</option>
+                                <option value="consultation">Technical Consultation</option>
+                                <option value="mentorship">Mentorship</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="budget">Project Budget (Optional)</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="under-1k">Under $1,000</option>
+                                <option value="1k-5k">$1,000 - $5,000</option>
+                                <option value="5k-10k">$5,000 - $10,000</option>
+                                <option value="10k-plus">$10,000+</option>
+                                <option value="discuss">Let's Discuss</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell me about your project, timeline, and requirements..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <span class="checkmark"></span>
+                                Subscribe to my newsletter for updates on new projects and tech insights
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common questions</p>
+            </div>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3><i class="fas fa-question-circle"></i> What services do you offer?</h3>
+                    <p>I specialize in full-stack web development, mobile app development with Flutter, IoT/embedded systems projects, and technical consulting.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3><i class="fas fa-clock"></i> What's your typical project timeline?</h3>
+                    <p>Project timelines vary based on complexity. Simple websites: 1-2 weeks, Mobile apps: 3-6 weeks, IoT projects: 2-4 weeks. I'll provide detailed estimates after discussing your requirements.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3><i class="fas fa-dollar-sign"></i> How do you price your projects?</h3>
+                    <p>I offer both fixed-price and hourly rates depending on the project scope. I provide detailed quotes after understanding your requirements and timeline.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3><i class="fas fa-handshake"></i> Do you work with teams?</h3>
+                    <p>Absolutely! I enjoy collaborating with other developers, designers, and stakeholders. I'm comfortable working in agile environments and using tools like Git, Slack, and project management platforms.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3><i class="fas fa-graduation-cap"></i> Do you offer mentorship?</h3>
+                    <p>Yes, I'm passionate about helping others learn. I offer mentorship in web development, mobile development, and IoT projects. Contact me to discuss mentorship opportunities.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3><i class="fas fa-tools"></i> What technologies do you prefer?</h3>
+                    <p>I love working with modern JavaScript (Node.js, React), Flutter for mobile apps, Arduino for IoT projects, and Firebase for backend services. I'm always open to learning new technologies based on project needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="contact-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Let's turn your ideas into reality. I'm here to help you build something amazing.</p>
+                <div class="cta-buttons">
+                    <a href="#contactForm" class="btn btn-primary">Send Message</a>
+                    <a href="/resume.pdf" class="btn btn-secondary" target="_blank">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<%- include('partials/footer') %>

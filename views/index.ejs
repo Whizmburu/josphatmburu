@@ -1,0 +1,174 @@
+<%- include('partials/header') %>
+
+<main class="main-content">
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hi, I'm</span>
+                        <span class="name">Josphat Mburu</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        Full Stack Developer | Embedded Systems Engineer | Tech Innovator
+                    </h2>
+                    <p class="hero-description">
+                        I build smart systems, web experiences, and digital tools that transform ideas into impactful technology.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="/projects" class="btn btn-primary">
+                            <i class="fas fa-code"></i> View Projects
+                        </a>
+                        <a href="/contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i> Contact Me
+                        </a>
+                        <a href="/resume.pdf" class="btn btn-outline" target="_blank">
+                            <i class="fas fa-download"></i> Resume
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="/images/profile-1.jpg" alt="Josphat Mburu" class="profile-image">
+                        <div class="image-decoration"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll indicator -->
+            <div class="scroll-indicator">
+                <span>Scroll down</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick About Section -->
+    <section class="quick-about" id="quick-about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Passionate about smart innovations, automation, and clean design</p>
+            </div>
+
+            <div class="about-cards">
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Location</h3>
+                    <p>Based in Kenya</p>
+                </div>
+
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Education</h3>
+                    <p>Computer Science Background</p>
+                </div>
+
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Experience</h3>
+                    <p>Coding since 2018</p>
+                </div>
+
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Specialization</h3>
+                    <p>IoT & Web Development</p>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <a href="/about" class="btn btn-primary">Learn More About Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Preview -->
+    <section class="featured-projects" id="featured-projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>Some of my best work showcasing different technologies</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/smart-home.jpg" alt="Smart Home Automation">
+                        <div class="project-overlay">
+                            <a href="https://github.com/mburuwhiz/home-automation" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Smart Home Automation</h3>
+                        <p>IoT + Arduino project automating lights, curtains, and fan control via sensors.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Arduino</span>
+                            <span class="tech-tag">IoT</span>
+                            <span class="tech-tag">C++</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/chat-app.jpg" alt="Real-Time Chat App">
+                        <div class="project-overlay">
+                            <a href="https://github.com/mburuwhiz/chat-app" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Real-Time Chat App</h3>
+                        <p>Built with Node.js, Express & Socket.io — supports instant messaging.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">Express</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/task-manager.jpg" alt="Flutter Task Manager">
+                        <div class="project-overlay">
+                            <a href="https://github.com/mburuwhiz/task-manager" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Flutter Task Manager</h3>
+                        <p>Firebase-backed To-Do app with notifications and authentication.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Dart</span>
+                            <span class="tech-tag">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <a href="/projects" class="btn btn-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<%- include('partials/footer') %>
